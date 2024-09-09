@@ -6,12 +6,12 @@
   "homepage": "http://github-adarshal.github.io/comparison",
   "base": "./comparison",
   "scripts": {
-    "dev": "vite",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
