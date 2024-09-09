@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "http://github-adarshal.github.io/comparison",
-  "base": "./comparison",
+  "base": "/comparison",
   "scripts": {
     "dev": "vite",
     "predeploy" : "npm run build",
