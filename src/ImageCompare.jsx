@@ -9,11 +9,11 @@ const ImageCompare = ({ images }) => {
 
   return (
     <div className="image-compare">
-    <div style={{marginLeft:"30%",padding:"10px"}}>
+    <div style={{marginLeft:"40%",padding:"5px"}}>
      <button onClick={handleCompareClick}>Compare</button>
      </div>
       <img src={images[currentIndex]} alt={images[currentIndex].replace(/\..+$/, '')} 
-      style={{ width: '80%', height: '80%', padding:"10px" }}  />
+      style={{ width: '98%', height: '88%', marginLeft:"20px" }}  />
      
     </div>
   );

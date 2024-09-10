@@ -66,6 +66,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.sidebar {
+  height: 95vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 10px; /* Add spacing between buttons */
+}
+
 .sidebar button.selected {
   border: 2px solid blue; /* Adjust border color and style as needed */
 }
